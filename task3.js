@@ -13,7 +13,7 @@ function mostFreq(arr) {
             maxNum = arr[i];
         }
     }
-    console.log(maxNum);
+    return maxNum;
 }
 
-mostFreq([3, 5, 2, 5, 3, 3, 1, 4, 5]);
+console.log(mostFreq([3, 5, 2, 5, 3, 3, 1, 4, 5]));
