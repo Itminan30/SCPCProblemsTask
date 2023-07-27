@@ -6,5 +6,4 @@ function stringReverse(str) {
     }
     return revStr;
 }
-console.log(stringReverse("PROGRAMMING"));
-console.log(stringReverse("HERO"));
+console.log(stringReverse("hello world"));

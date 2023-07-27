@@ -13,4 +13,4 @@ function calculator(num1, num2, operation) {
     }
 }
 
-console.log(calculator(28, 14, '/'));
+console.log(calculator(28, 14, '+'));

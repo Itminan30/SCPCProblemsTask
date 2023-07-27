@@ -15,14 +15,14 @@ function passwordGenerator(len) {
         for (i = 4; i < len; i++) {
             password = password + mixedChars.charAt(Math.floor(Math.random() * (mixedChars.length)))
         }
-        console.log(password);
+        return password;
     }
     else {
         for (i = 0; i < len; i++) {
             password = password + mixedChars.charAt(Math.floor(Math.random() * (mixedChars.length)))
         }
-        console.log(password);
+        return password;
     }
 }
 
-passwordGenerator(8)
+console.log(passwordGenerator(8));

@@ -1,5 +1,4 @@
 function findIndices(arr, target) {
-    
     for(i = 0; i < arr.length; i++){
         for(j = i; j < arr.length; j++){
             if(arr[j] >= target){

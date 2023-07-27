@@ -16,10 +16,10 @@ function romanToInteger(romanNumeral) {
         const nextSymbolValue = romanNumerals[romanNumeral[i + 1]];
 
         if (nextSymbolValue > currentSymbolValue) {
-            result += nextSymbolValue - currentSymbolValue;
+            result = result + nextSymbolValue - currentSymbolValue;
             i++;
         } else {
-            result += currentSymbolValue;
+            result = result + currentSymbolValue;
         }
     }
 
@@ -27,3 +27,5 @@ function romanToInteger(romanNumeral) {
 }
 
 console.log(romanToInteger("XIX"));
+console.log(romanToInteger("XXI"));
+console.log(romanToInteger("IX"));
